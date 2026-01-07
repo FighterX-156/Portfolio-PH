@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; /* deducts the outside values  */
+}
+.Hero-Section{
+   background-color: #F4F4F9;
+   height: 100vh;
+   width: 100%;
+   font-family: Roboto;
+   display: flex;
+   position:relative;
+}
+.Navigation{
+   display: flex;
+   justify-content: flex-end;
+   position: fixed;
+   right: 0px;
+   z-index: 11;
+}
+.Custom-icon{
+   display: flex;
+   justify-content: space-evenly;
+   height: fit-content;
+   width: 180px;
+   position: absolute ;
+   top: 60px;
+   right: 1550px;
+   z-index: 1;
+   font-size: 26px;
+   color: #112A46;
+}
+.Custom-icon span{
+   rotate: deg;
+   color:#A78BFA;
+}
+.Hero-link{
+   height: fit-content;
+   width: 480px;
+   list-style: none;
+   display: flex;
+   position: relative;
+   top: 60px;
+   right: 95px;
+   gap: 32px;
+   font-size: 20px;
+   font-weight: bold;
+   color: #112A46;
+
+}
+.Contact-me{
+   background-color: #5C199F;
+   border: none;
+   border-radius: 12px;
+   height: 50px;
+   width: 160px;
+   font-size: 21px;
+   font-weight: bold;
+   color: white;
+   position: relative;
+   top: 45px;
+   right: 100px;
+}
+ .Tag{
+   color: #112A46;
+   opacity: 0.3;
+   position: absolute;
+   left: 30px;
+   top:0;
+   bottom: 0;
+   font-family: Roboto Mono;
+   font-size: 130px;
+   font-weight: bolder;
+   transform: rotate(-90deg) ;
+   letter-spacing: 24px;
+ }
+.Design{
+   height: 600px;
+   width:auto;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+  
+}
+.Intro-container{
+   position: relative;
+   top: 500px;
+   left:210px; 
+   height: 26%;
+   width:700px;
+}
+.Intro{
+   font-size: 28px;
+   color: rgba(0, 0, 0, 0.726);
+}
+.Intro h1{
+   color: rgb(0, 0, 0);
+}
+.Intro-Button-Group{
+ height: auto;
+ width:400px;  
+ display: flex;
+ gap: 30px;
+ position: absolute;
+ bottom: 0;
+}
+.Intro-Text{
+   position: absolute;
+   top: 120px;
+   text-align: justify;
+    color: rgba(0, 0, 0, 0.726);
+}
+.Intro-Button01{
+   background-color: #5C199F;
+   border: none;
+   border-radius: 12px;
+   height: 50px;
+   width: 180px;
+   font-size: 21px;
+   font-weight: bold;
+   color: white;
+   align-items: center;
+}
+.Intro-Button02{
+   background-color: #5C199F;
+   border: none;
+   border-radius: 12px;
+   height: 50px;
+   width: 180px;
+   font-size: 21px;
+   font-weight: bold;
+   color: white;
+}
+.Profile-Pic{
+   height: 90%;
+   width:auto;
+   position: absolute;
+   right: 60px;
+   bottom:0;
+   
+}
+.About{
+   height: 100vh;
+   width:100%;
+   background-color: white;
+   position: relative;
+   border: 1px solid black;
+   
+
+}
+.About-Container{
+   height: 60%;
+   width:60%;
+   background-color: #f5bdf9;
+   display: flex;
+   position: relative;
+   top: 24%;
+   left: 400px;
+   border-radius: 25px;
+}
